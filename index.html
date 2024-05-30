@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum Vitae</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
 </head>
 <body>
-    <h1>Hello World</h1>
-</body>
+    .ilike-blue-container {
+        @extend .blue, .lighten-4;
+      }
+    <div><img src={{user.photo}}></div>
+    <h3>Personal Details</h3>
+    <label for=""> Full Names</label>
+    <p>{{user.fullName}}</p>
+    <label for="">Contact Details</label>
+    <p>{{user.phone}}</p>
+    <p>{{user.email}}</p>
+    
+    <section>
+        <h3>Education</h3>
+        <div><img src={{education.photo}}>
+            <p>{{education.description}}</p>
+        </div>
+        <label for="">Institution Name</label>
+        <p>{{education.institutionName}}</p>
+        <label for="">Qualification</label>
+        <p>{{education.qualification}}</p>
+        <label for="">Status</label>
+        <p>{{education.status}}</p>
+        </section>
+
+    </body>
 </html>
