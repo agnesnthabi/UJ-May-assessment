@@ -1,21 +1,23 @@
 {
     "user": {
         "fullName": "Nthabiseng Nayna Mathabatha",
-        "photo": "nayna.jpg",
+        "photo": "./nayna.jpg",
         "phone": "0726349066",
         "email": "agnesnthabisengm@gmail.com",
-        "address": "123 Juta str, Sandton"
+        "address": "123 Juta str, Sandton",
+        "description": "Nayna has always been passionate about helping others, which initially drew her to the field of optometry. With a meticulous eye for detail and a genuine desire to improve people's lives, she excelled in her studies and became a licensed optometrist. Nayna became involved in developing a mobile app designed to help people perform basic eye exams at home, utilizing smartphone cameras and artificial intelligence"
     },
     "education": {
         "institutionName": "University Of Limpopo",
         "status": "Completed",
         "qualification": "Optometrist",
-        "photo": "download.png",
+        "photo": "./download.png",
         "description": "The main campus of the University of Limpopo is located in Turfloop, near Polokwane (formerly Pietersburg), the capital city of Limpopo province. The university provides modern facilities for teaching, learning, research, and recreational activities."
     },
     "language": {
         "englishPhrase": "English",
-        "foreignLanguage": "Spanish"
+        "foreignLanguage": "Spanish",
+        "homelang": "Sepedi"
     },
     "skills": {
         "techskill": "SQL",
@@ -28,5 +30,10 @@
         "Title": "Lab Assistant",
         "Description": "A Lab Assistant is essential to the smooth operation of a laboratory, providing critical support to scientists and researchers. Through diligent maintenance of equipment, precise preparation and execution of experiments, and meticulous data management, Lab Assistants help advance scientific research and innovation. Their role demands a combination of technical skills, attention to detail, and a commitment to maintaining a safe and organized laboratory environment.",
         "Company": "University of Limpopo"
+    },
+    "reference": {
+        "name": "Thabelo Naledzani",
+        "post": "Technical Tester",
+        "comp": "FNB"
     }
 }

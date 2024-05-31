@@ -10,15 +10,19 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col s4" style="height: 100em; background-color: rgb(219, 42, 131);">
+            <div class="col s4" style="height: 150em; background-color: rgb(219, 42, 131);">
                 <img src={{user.photo}}>
-                <h5>Contact Details</h5>
+                
+                <h5><i class="material-icons">call</i>Contact Details</h5>
+                
                 <hr>
                 <label>Phone No:</label>
                 <p>{{user.phone}}</p>
@@ -41,18 +45,23 @@
 
             <h3>Languages</h3>
              <hr>
-             <p>{{language.englishPhrase}}</p>
-             <p>{{language.foreignLanguage}}</p>
+             <ul>
+             <li>{{language.englishPhrase}}</li>
+             <li>{{language.foreignLanguage}}</li>
+             <li>{{language.homelang}}</li>
+             </ul>
              </div>
-
-
-            <div class="col s8" style="height: 100em; background: pink;">
+            
+           <div class="col s8" style="height: 150em; background: pink;">
                 <h3>Personal Details</h3>
                 <hr>
                 <label for=""> Full Names</label>
                 <p>{{user.fullName}}</p>
+                <strong> Aspiring Software Developer</strong>
+                <hr>
+                <label for=""> Description:</label>
+                <p>{{user.description}}</p>
                 
-
                 <h3>Skills</h3>
                 <hr>
                 <p>{{skills.techskill}}</p>
@@ -70,7 +79,15 @@
                 <p>{{experience.Title}}</p>
                 <label>About:</label>
                 <p>{{experience.Description}}</p>
-               
+
+                <h3>References</h3>
+                <hr>
+                <label>Name:</label>
+                <p>{{reference.name}}</p>
+                <label>Position:</label>
+                <p>{{reference.post}}</p>
+                <label>Company Name:</label>
+                <p>{{reference.comp}}</p>
             </div>
 
         </div>
